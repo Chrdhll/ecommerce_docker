@@ -1,0 +1,16 @@
+{
+  "name": "user-services",
+  "version": "1.0.0",
+  "description": "User Service with PostgreSQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "sequelize": "^6.37.3",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4"
+  }
+}
